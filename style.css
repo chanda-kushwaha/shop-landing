@@ -1,1 +1,50 @@
-!
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+    background-color: #ea580c;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #7f9db1;
+    padding: 1rem;
+    align-items: center;
+}
+.hero{
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #c3c3cd;
+}
+
+.hero h2{
+    font-size: 25px;
+}
+
+hero.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem;
+    background-color: #9999c2;
+    color: black;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-outline{
+    background-color: aliceblue;
+    border-color: aqua;
+    
+}
+section{
+    padding: 2rem 1rem;
+}
