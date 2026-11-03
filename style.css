@@ -48,6 +48,7 @@ background-color: #ea580c;
     color: white;
 }
 section{
+    
     padding: 2rem 1rem;
 }
 
@@ -62,12 +63,44 @@ section{
     border: 2px solid #ea580c;
     border-radius: 8px;
 } 
+section h2{
+    text-align: center;
+    color: #ea580c;
+    margin-bottom: 1.5rem;
+}
+.features{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 1rem;
+}
 
+.features li{
+    background-color: white;
+    padding: 1rem;
+    border-left: 4px solid #ea580c;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.visit{
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+.visit p{
+    margin-bottom: 0.75rem;
+}
 
 footer{
+    background-color:#ea580c;
     text-align: center;
-    padding: 2.5rem;
-    color: black;
+    padding: 1.5rem;
+    color: white;
 }
 
 
