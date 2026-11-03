@@ -48,3 +48,22 @@ hero.buttons{
 section{
     padding: 2rem 1rem;
 }
+
+.cards{
+    display: grid;
+    gap:1% ;
+
+}
+.card{
+    background: #7f9db1;
+    padding: 1.5rem;
+    border: 2px solid #f6386e;
+    border-radius: 8px;
+} 
+footer{
+    text-align: center;
+    padding: 2.5rem;
+    color: black;
+}
+
+
