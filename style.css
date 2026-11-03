@@ -4,13 +4,14 @@
 body{
     margin: 0;
     
-    background-color: #ea580c;
+    background-color: #fff7ed;
 }
 header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #7f9db1;
+    background-color: #ea580c;
+    color: white;
     padding: 1rem;
     align-items: center;
 }
@@ -24,10 +25,11 @@ header{
     font-size: 25px;
 }
 
-hero.buttons{
+.buttons{
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
+background-color: #ea580c;
 
 }
 
@@ -35,15 +37,15 @@ hero.buttons{
     display: inline-block;
     padding: 1rem;
     background-color: #9999c2;
-    color: black;
+    color: white;
     border-radius: 6px;
     text-decoration: none;
 }
 
 .btn-outline{
-    background-color: aliceblue;
-    border-color: aqua;
-    
+    background-color:#ea580c;
+    border-color: 2px solid #ea580c;
+    color: white;
 }
 section{
     padding: 2rem 1rem;
@@ -55,11 +57,13 @@ section{
 
 }
 .card{
-    background: #7f9db1;
+    background: white;
     padding: 1.5rem;
-    border: 2px solid #f6386e;
+    border: 2px solid #ea580c;
     border-radius: 8px;
 } 
+
+
 footer{
     text-align: center;
     padding: 2.5rem;
