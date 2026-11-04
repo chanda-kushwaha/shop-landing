@@ -3,7 +3,7 @@
 }
 body{
     margin: 0;
-    
+    font-family: Arial,  sans-serif;
     background-color: #fff7ed;
 }
 header{
@@ -15,10 +15,18 @@ header{
     padding: 1rem;
     align-items: center;
 }
+nav {
+    display: flex;
+    gap: 1rem;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
 .hero{
     padding: 3rem 1rem;
     text-align: center;
-    background-color: #c3c3cd;
+    background-color: #ffedd5;
 }
 
 .hero h2{
@@ -27,16 +35,17 @@ header{
 
 .buttons{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1.5rem;
-background-color: #ea580c;
 
 }
 
 .btn{
     display: inline-block;
-    padding: 1rem;
-    background-color: #9999c2;
+    padding: 0.75rem 1.5rem;
+    background-color:  #ea580c;
+    border: 2px solid #ea580c;
     color: white;
     border-radius: 6px;
     text-decoration: none;
@@ -44,7 +53,7 @@ background-color: #ea580c;
 
 .btn-outline{
     background-color:#ea580c;
-    border-color: 2px solid #ea580c;
+   
     color: white;
 }
 section{
