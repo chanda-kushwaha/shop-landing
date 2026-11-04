@@ -72,6 +72,9 @@ section{
     border: 2px solid #ea580c;
     border-radius: 8px;
 } 
+.card h3{
+    margin-top: 0;
+}
 section h2{
     text-align: center;
     color: #ea580c;
