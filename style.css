@@ -30,7 +30,7 @@ nav a{
 }
 
 .hero h2{
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .buttons{
@@ -52,9 +52,9 @@ nav a{
 }
 
 .btn-outline{
-    background-color:#ea580c;
+    color:#ea580c;
    
-    color: white;
+    background-color:white;
 }
 section{
     
@@ -63,7 +63,7 @@ section{
 
 .cards{
     display: grid;
-    gap:1% ;
+    gap:1rem;
 
 }
 .card{
@@ -113,6 +113,31 @@ footer{
     text-align: center;
     padding: 1.5rem;
     color: white;
+}
+@media (min-width: 768px) {
+   .cards{
+   
+    grid-template-columns: repeat(3, 2fr);
+   max-width:900px;
+   margin: 0 auto;
+    text-align: center;
+    
+   }
+   .features{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+   }
+   .hero{
+    margin: 2rem;
+    padding: 3rem 1rem
+   }
+   .hero h2{
+    font-size: 2rem;
+   }
 }
 
 
